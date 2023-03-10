@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.caja-principal {
+display: flex;
+justify-content: space-between;
+
+}
+
+.header-secc {
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.logo-caja {
+padding-left: 25px;
+}
+
+
+.nav-secc {
+  display: flex;
+color: white;
+padding-right: 25px;
+align-items: center;
+}
+
+.lista-header {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-left: 5px;
+}
+
+.cajas-principales {
+display: flex;
+justify-content: space-between;
+}
+
+.Caja-padre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.envio-titulo {
+  color: rgba(252, 32, 12, 1);
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.comprando {
+  color: white;
+}
+
+.repartidor-caja {
+  background-image: url(/img/delivery.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 0.5;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+.lista-caja {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50%;
+  padding-left: 30px;
+  flex-grow: 0.5;
+
+}
+
+.titulo-pizza {
+text-align: center;
+}
+
+.top-titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.caja-lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista2 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.pizza {
+  padding-right: 70px;
+}
+
+h3 {
+  color: rgba(252, 32, 12, 1);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.footer-seccion {
+  margin-top: 30px;
+  display: flex;
+  background-color: rgba(34, 34, 34, 1);
+  justify-content: space-between;
+}
+
+.contacto {
+  color: white;
+  padding-left: 25px;
+}
+
+.logo2 {
+  padding-right: 25px;
+}
+
+.pizza {
+  height: 200px;
+  align-self: center;
+  margin-right: 100px;
+  position: relative; right: 100px;
+  
+  }
+
